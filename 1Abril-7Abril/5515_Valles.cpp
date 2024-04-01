@@ -22,7 +22,8 @@ bool isValley(vector<vector<int>> mat, int i, int j) {
     if (mat[i-1][j] &&  // Arriba
         mat[i+1][j] &&  // Abajo
         mat[i][j-1] &&  // Izquierda
-        mat[i][j+1]     // Derecha
+        mat[i][j+1] &&  // Derecha
+        mat[i][j] == 0  // Es terreno bajo
         ) {
 
         return true;

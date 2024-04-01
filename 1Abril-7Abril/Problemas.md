@@ -31,7 +31,6 @@ Problema: https://omegaup.com/arena/problem/Buscaminas-/
 
 ## 5. Valles
 Este problema está igualito que el anterior, si el anterior lo hiciste con ayuda del código, este intenta hacerlo solita, tú puedes.
-Este todavía no me jala, no sé por qué, dame chancecillo y hago los cambios más tarde.
 
 Problema: https://omegaup.com/arena/problem/Valles/
 
