@@ -23,3 +23,15 @@ El tutorial que estaba buscando era de la estructura de datos de **pair**, que y
 Qué son los pares: https://www.youtube.com/watch?v=Puaw04YmtrI
 
 Problema: https://omegaup.com/arena/problem/1er-ccp-tapete/
+
+## 4. Buscaminas
+Hay muchos problemas de este estilo y eventualmente aprenderás formas bien rápidas de hacerlas, pero esta que te paso funciona bien. Además tiene un truquillo que viene comentado en el código para que el código sea más fácil
+
+Problema: https://omegaup.com/arena/problem/Buscaminas-/
+
+## 5. Valles
+Este problema está igualito que el anterior, si el anterior lo hiciste con ayuda del código, este intenta hacerlo solita, tú puedes.
+Este todavía no me jala, no sé por qué, dame chancecillo y hago los cambios más tarde.
+
+Problema: https://omegaup.com/arena/problem/Valles/
+
