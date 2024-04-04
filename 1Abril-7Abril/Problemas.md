@@ -34,3 +34,8 @@ Este problema está igualito que el anterior, si el anterior lo hiciste con ayud
 
 Problema: https://omegaup.com/arena/problem/Valles/
 
+## 6. Sumando los votos - Extra
+No sé cómo habrás hecho tú tu código jajaja, pero ya quedó, es más o menos corto, es básicamente un doble for para leer las votaciones de todas las ciudades (puede haber ciudades repetidas que tienes que acumular) y un doble for para imprimir la respuesta.
+
+Por lo mismo de que se van sumando, la matriz la creé con vectores para que se inicializara con ceros.
+
