@@ -41,7 +41,15 @@ Problema: https://omegaup.com/arena/problem/ContandoUnoPorUno/
 Este problema se puede resolver de una forma que se llama "Fuerza Bruta", ¿qué es eso?, es probar todas las posibles combinaciones y agarrar la que te piden.  
 Este tipo de solución es usualmente la más fácil de implementar, pero también la más lenta.  
 Piensa, en este caso hay un máximo de 300 pociones y 300 pastelitos, entonces, si probamos todas las combinaciones tendríamos 300x300 = 90,000 casos, que es nada para la computadora tomando en cuenta que puede hacer 100,000,000 operaciones por segundo.  
-Sí, hay formar mucho más eficientes de hacerlo, pero no necesitamos eso entonces nos vamos a ahorrar el trabajo.
+Sí, hay formas mucho más eficientes de hacerlo, pero no necesitamos eso entonces nos vamos a ahorrar el trabajo.
+
+Problema: https://omegaup.com/arena/problem/Alicia-y-los-cambios-de-tamano/
+
+## 7. Lámpara
+Este está complicadón, pero tú puedes, cualquier duda ya te la sabes
+
+Problema: https://omegaup.com/arena/problem/LamparasSanty/
+
 
 
 
