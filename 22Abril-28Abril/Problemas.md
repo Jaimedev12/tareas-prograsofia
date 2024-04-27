@@ -1,6 +1,6 @@
 # Links de los problemas - Ciclos
 ### Problemas del 22/Abril/2024 a 28/Abril/2024
-### Nivel **17.00** a **17.**
+### Nivel **17.00** a **18.43**
 
 ## 1. Boletos por besos
 Este problema está larguillo, incluso hasta medio naco pero es importante que aprendas a resolver problemas con contexto.
