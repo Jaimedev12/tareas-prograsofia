@@ -10,4 +10,6 @@ Este problema es uno de esos que te pueden tener pensando que están bien difíc
 
 Leelo bien y si tienes dudas, chécate mi código
 
+PD: Investiga .substr()
+
 Problema: https://omegaup.com/arena/problem/Desmostrando-tu-habilidad/
