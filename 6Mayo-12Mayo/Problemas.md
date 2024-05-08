@@ -13,3 +13,16 @@ Leelo bien y si tienes dudas, chécate mi código
 PD: Investiga .substr()
 
 Problema: https://omegaup.com/arena/problem/Desmostrando-tu-habilidad/
+
+
+## 2. Carritos chocones
+
+No te voy a mentir, este problema me costó bastante eh, entonces es normal que tú tampoco le entiendas a la primera y está bien.
+
+Si puedes hacerlo tú solita, tienes todo el derecho de restregármelo en la cara.
+
+Pero de cualquier manera, me esforcé de que mi código estuviera súper bien comentado entonces échale un ojo. Cualquier cosa me puedes mandar mensaje y te explico en lo que tengas duda.
+
+Problema: https://omegaup.com/arena/problem/Carritos-chocones/#problems
+
+
