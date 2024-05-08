@@ -25,4 +25,13 @@ Pero de cualquier manera, me esforcé de que mi código estuviera súper bien co
 
 Problema: https://omegaup.com/arena/problem/Carritos-chocones/#problems
 
+## 3. Sumas de números consecutivos
+
+No quiero espoilearte la solución, pero has el análisis para que veas si una solución de fuerza bruta entra en tiempo.
+
+La forma de solucionar este problema es una forma que se usa bastante para llevar una suma de números consecutivos, analiza mi código para que la entiendas.
+
+Problema: https://omegaup.com/arena/problem/snc/
+
+
 
