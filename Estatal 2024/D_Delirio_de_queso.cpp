@@ -27,6 +27,10 @@ lli multMod(lli a, lli b) {
     return (((a%MOD) * (b%MOD))%MOD);
 }
 
+lli sumMod(lli a, lli b) {
+    return (((a%MOD) + (b%MOD))%MOD);
+}
+
 lli fastPowMod(lli base, lli pow) {
     lli res = 1;
     base %= MOD;
@@ -41,12 +45,9 @@ lli fastPowMod(lli base, lli pow) {
     return res;
 }
 
-
 int main() { _
     
     cin >> n >> m >> k >> qi >> qj;
-
-    // k %= MOD;
 
     fore(i, 0, n) rataQueso[i][0] = 1;
     fore(j, 0, m) rataQueso[0][j] = 1;
@@ -56,38 +57,17 @@ int main() { _
 
     fore(i, 1, n) {
         fore(j, 1, m) {
-            rataQueso[i][j] = rataQueso[i-1][j] + rataQueso[i][j-1];
+            rataQueso[i][j] = sumMod(rataQueso[i-1][j], rataQueso[i][j-1]);
         }
     }
 
     fore(i, qi, n) {
         fore(j, qj, m) {
-            quesoFin[i][j] = quesoFin[i-1][j] + quesoFin[i][j-1];
+            quesoFin[i][j] = sumMod(quesoFin[i-1][j], quesoFin[i][j-1]);
         }
     }
 
-    // lli ans = rataQueso[qi-1][qj-1] * quesoFin[n-1][m-1] * k;
-    cout << multMod(rataQueso[qi-1][qj-1], quesoFin[n-1][m-1]) << endl;
-
     lli ans = fastPowMod(multMod(rataQueso[qi-1][qj-1], quesoFin[n-1][m-1]), k);
     cout << ans << endl;
-
-
-    // fore(i, 0, n) {
-    //     fore(j, 0, m) {
-    //         cout << rataQueso[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
-    // cout << endl;
-    // fore(i, 0, n) {
-    //     fore(j, 0, m) {
-    //         cout << quesoFin[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
-
-
-
 	return 0;
 }

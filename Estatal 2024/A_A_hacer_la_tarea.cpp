@@ -7,19 +7,13 @@ using namespace std;
 int main() { _
 
     int milis; cin >> milis;
-    // cout << milis << endl;
-
     int segs = milis/1000;
-    // cout << segs << endl;
 
     int mins = segs/60;
     segs %= 60;
-    // cout << mins << " " << segs << endl;
 
     int hrs = mins/60;
     mins %= 60;
-
-    // cout << hrs << " " << mins << " " << segs << endl;
 
     string meridian;
     if (hrs < 12) {
@@ -32,8 +26,11 @@ int main() { _
         hrs %= 12;
     }
 
-
-    cout << hrs << ":";
+    if (hrs == 0) {
+        cout << "12:";
+    } else {
+        cout << hrs << ":";
+    }
 
     if (mins < 10) {
         cout << "0" << mins;
@@ -53,3 +50,4 @@ int main() { _
 
 	return 0;
 }
+

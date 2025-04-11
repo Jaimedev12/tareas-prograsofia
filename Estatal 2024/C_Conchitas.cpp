@@ -11,6 +11,10 @@ int main() { _
 
     int n; cin >> n;
     map<string, int> cnt;
+    // <key, value>
+
+    // map -> arbol binario -> logn
+    // unordered_map -> hashmap -> O(1)
 
     fore(i, 0, n) {
         string concha; cin >> concha;
@@ -21,7 +25,6 @@ int main() { _
     int maxCnt = 0;
 
     for (auto& it : cnt) {
-
         if (it.second > maxCnt) {
             maxCnt = it.second;
             maxConcha = it.first;
